@@ -19,7 +19,7 @@ function agregarAmigo()
 
     // Llamamos a la función para actualizar la lista
     actualizarLista();
-    
+
     // Llamamos a la función para restablecer el cuadro de texto a una cadena vacía
     limpiarNombre();
 }
@@ -54,12 +54,12 @@ function actualizarLista()
 }
 
 // Función para sortear los amigos
-function sortearAmigos()
+function sortearAmigo()
 {
-    // Validamos si la lista de amigos esta vacía o tiene menos de dos integrantes
-    if (amigos.length <= 1)
+    // Validamos si la lista de amigos esta vacía
+    if (amigos.length === 0)
     {
-        alert("La lista de amigos está vacía. Por favor, agrega al menos dos amigos antes de realizar el sorteo.");
+        alert("La lista de amigos está vacía. Por favor, agrega los nombres de tus amigos antes de realizar el sorteo.");
         return; // Salir de la función si no hay elementos
     }
     
@@ -70,5 +70,5 @@ function sortearAmigos()
     let amigoSorteado = amigos[indiceAleatorio];
 
     // Mostrar el resultado en un elemento HTML con el ID "resultado"
-    document,getElementById("resultado").innerHTML = `El amigo seleccionado es: <strong>${amigoSorteado}</strong>`;
+    document.getElementById("resultado").innerHTML = `El amigo seleccionado es: <strong>${amigoSorteado}</strong>`;
 }
