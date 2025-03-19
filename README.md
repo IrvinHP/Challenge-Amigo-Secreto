@@ -1,6 +1,5 @@
 ![Logo del proyecto, imagen minimalista de un regalo, utilizando colores pastel como rosa, celeste y verde con estilo amigable.](https://raw.githubusercontent.com/IrvinHP/Challenge-Amigo-Secreto/refs/heads/main/assets/Logo-Amigo-Secreto.webp)
 <h1 align="center"> Challenge Amigo Secreto </h1>
-![Static Badge](https://img.shields.io/badge/Status-Finished-green?style=for-the-badge)
 
 ## Descripción del proyecto
 
@@ -42,3 +41,7 @@ El archivo JavaScript incluye las siguientes funciones principales:
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la funcionalidad o el diseño, no dudes en enviar un pull request.
+
+## Estado del Proyecto
+
+Finalizado.
